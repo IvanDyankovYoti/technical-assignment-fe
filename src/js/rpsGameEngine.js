@@ -1,12 +1,12 @@
-const ROCK = "✊";
-const PAPER = "🖐️";
-const SCISSORS = "✌";
-const GAME_RESULT_DRAW = "DRAW";
-const PLAYER_WON = (player) => `${player} won!`;
-const GAME_OBJECTS = [ROCK, PAPER, SCISSORS];
-const COMPUTER_PLAYER_ONE = "CPU 1";
-const COMPUTER_PLAYER_TWO = "CPU 2";
-const HUMAN_PLAYER = "YOU";
+export const ROCK = "✊";
+export const PAPER = "🖐️";
+export const SCISSORS = "✌";
+export const GAME_RESULT_DRAW = "DRAW";
+export const PLAYER_WON = (player) => `${player} won!`;
+export const GAME_OBJECTS = [ROCK, PAPER, SCISSORS];
+export const COMPUTER_PLAYER_ONE = "CPU 1";
+export const COMPUTER_PLAYER_TWO = "CPU 2";
+export const HUMAN_PLAYER = "YOU";
 
 /**
  * Returns one of [ROCK, PAPER, SCISSORS].

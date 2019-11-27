@@ -2,7 +2,7 @@ import "core-js/stable";
 import "regenerator-runtime/runtime";
 
 import logger from './logger';
-import { start, reset as resetBoard, simulate} from './rpcGameEngine';
+import { start, reset as resetBoard, simulate} from './rpsGameEngine';
 
 import '../css/index.scss';
 
