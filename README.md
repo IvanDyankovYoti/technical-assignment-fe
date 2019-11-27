@@ -84,6 +84,12 @@ We look forward to your submission, happy coding! :)
   - used HTML Canvas to draw the game board (more like write emojis on the it)
   - did not test on IE11 since I do not have easy access to it, but I am not expecting issues.
 
+  TODO:
+  - pixels -> relative units
+  - make the UI prettier - add button click effects
+  - add more DOM testing
+  - Convert to React :P
+
 ### Screenshots
 ![Default State](./docs/defaultState.png)
 ![Human State](./docs/humanPlay.png)
