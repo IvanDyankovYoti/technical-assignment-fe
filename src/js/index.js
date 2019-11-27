@@ -8,11 +8,6 @@ import '../css/index.scss';
 
 logger('let the games begin!');
 
-//TODO:
-// Make the buttons prettier
-// Add unit tests.
-// I didn't follow TDD for this exercise, because the spec was vague
-// and I wasn't sure how to TDD somethign which I kept chaning.
 document.addEventListener("DOMContentLoaded", function() {
 
   /* The canvas element */
