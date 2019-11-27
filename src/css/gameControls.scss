@@ -1,0 +1,24 @@
+.gameControls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  &__option {
+    width: 150px;
+    background: yellow;
+    font-weight: bold;
+    color: black;
+    border: 0 none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+  }
+
+  &__playerChoice > button {
+    margin: 10px 0px;
+    font-size: 30px;
+    border-radius: 5px;
+  }
+}

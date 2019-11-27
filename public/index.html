@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Rock - Paper - Scissors</title>
+		<title>Rock Paper Scissors</title>
 		<meta charset="UTF-8" />
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 	</head>
 	<body>
-		<h1>You are ready to go! :)</h1>
-		<h2>Good luck!</h2>
+		<h1 class="title">Rock Paper Scissors Game</h1>
+
+		<section class="gameControls">
+			<div class="gameControls__playerChoice">
+					<button value="✊">✊</button>
+					<button value="🖐️">🖐️</button>
+					<button value="✌">✌</button>
+			</div>
+			<button id="compVcomp" class="gameControls__option">Simulate a Game</button>
+			<button id="reset" class="gameControls__option" >Reset Game Board</button>
+		</section>
+
+		<section class="gameBoard">
+			<canvas id="scene" width="200" height="100" class="gameBoard__canvas"></canvas>
+			<h3 id="result" class="gameBoard__result"></h3>
+		</section>
+
 	</body>
 </html>

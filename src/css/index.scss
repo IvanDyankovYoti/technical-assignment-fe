@@ -1,9 +1,12 @@
 @import './style.css';
+@import './gameControls.scss';
+@import './gameBoard.scss';
 
 body {
 	background-color: green;
 
-	h1 {
+	.title {
 		color: white;
+		text-align: center;
 	}
 }
