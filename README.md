@@ -79,3 +79,12 @@ This repository should not have any bugs. If you do find any, please report them
 We look forward to your submission, happy coding! :)
 
 *The Gumtree Engineering team*
+
+## From the Submission author
+  - used HTML Canvas to draw the game board (more like write emojis on the it)
+  - did not test on IE11 since I do not have easy access to it, but I am not expecting issues.
+
+### Screenshots
+![Default State](./docs/defaultState.png)
+![Human State](./docs/humanPlay.png)
+![Simulate State](./docs/simulateGame.png)
