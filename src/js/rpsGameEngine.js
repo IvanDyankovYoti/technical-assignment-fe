@@ -22,23 +22,16 @@ export const getRandomMove = () => GAME_OBJECTS[Math.floor(Math.random() * 3)];
  * @return {String} tells you who won.
  */
 export const play = (player1, player2) => {
-  if (player1 === ROCK && player2 === ROCK) return GAME_RESULT_DRAW;
+  if (player1 === player2) return GAME_RESULT_DRAW;
 
-  if (player1 === ROCK && player2 === PAPER) return PLAYER_WON(player2);
+  if (player1 === ROCK && player2 !== PAPER) return PLAYER_WON(player1);
 
-  if (player1 === ROCK && player2 === SCISSORS) return PLAYER_WON(player1);
+  if (player1 === PAPER && player2 !== SCISSORS) return PLAYER_WON(player1);
 
-  if (player1 === PAPER && player2 === ROCK) return PLAYER_WON(player1);
+  if (player1 === SCISSORS && player2 !== ROCK) return PLAYER_WON(player1);
 
-  if (player1 === PAPER && player2 === PAPER) return GAME_RESULT_DRAW;
+  return PLAYER_WON(player2);
 
-  if (player1 === PAPER && player2 === SCISSORS) return PLAYER_WON(player2);
-
-  if (player1 === SCISSORS && player2 === ROCK) return PLAYER_WON(player2);
-
-  if (player1 === SCISSORS && player2 === PAPER) return PLAYER_WON(player1);
-
-  if (player1 === SCISSORS && player2 === SCISSORS) return GAME_RESULT_DRAW;
 }
 
 const drawScene = (gameBoard, playerOneValue, playerOneName, playerTwoValue, playerTwoName) => {
