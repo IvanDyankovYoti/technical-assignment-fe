@@ -8,7 +8,7 @@ import '../css/index.scss';
 
 logger('let the games begin!');
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
 
   /* The canvas element */
   const gameBoard = document.getElementById("scene");

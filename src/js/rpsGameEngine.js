@@ -12,7 +12,7 @@ export const HUMAN_PLAYER = "YOU";
  * Returns one of [ROCK, PAPER, SCISSORS].
  * Exported for unit testing only.
  */
-export const getRandomMove = () => GAME_OBJECTS[Math.floor(Math.random() * 3)];
+export const getRandomMove = () => GAME_OBJECTS[Math.floor(Math.random() * GAME_OBJECTS.length)];
 
 /**
  * This function plays a game for Rock, Paper, scissors.
